@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>スロットゲーム</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" media="screen" href="style.css">
+  </head>
+  <body>
+    <div class="slot">
+      <div id="slot-frame">
+        <ul class="reels">
+          <li class="reel" data-val="0"><img src="img/0.png" alt=""></li>
+          <li class="reel" data-val="7"><img src="img/7.png" alt=""></li> <!-- index 7 -->
+          <li class="reel" data-val="6"><img src="img/6.png" alt=""></li> <!-- index 6 -->
+          <li class="reel" data-val="5"><img src="img/5.png" alt=""></li> <!-- index 5 -->
+          <li class="reel" data-val="4"><img src="img/4.png" alt=""></li> <!-- index 4 -->
+          <li class="reel" data-val="3"><img src="img/3.png" alt=""></li> <!-- index 3 -->
+          <li class="reel" data-val="2"><img src="img/2.png" alt=""></li> <!-- index 2 -->
+          <li class="reel" data-val="1"><img src="img/1.png" alt=""></li> <!-- index 1 -->
+          <li class="reel" data-val="0"><img src="img/0.png" alt=""></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="7"><img src="img/7.png" alt=""></li>
+      </ul>
+      <ul class="reels">
+          <li class="reel" data-val="2"><img src="img/2.png" alt=""></li>
+          <li class="reel" data-val="1"><img src="img/1.png" alt=""></li> <!-- index 7 -->
+          <li class="reel" data-val="0"><img src="img/0.png" alt=""></li> <!-- index 6 -->
+          <li class="reel" data-val="7"><img src="img/7.png" alt=""></li> <!-- index 5 -->
+          <li class="reel" data-val="6"><img src="img/6.png" alt=""></li> <!-- index 4 -->
+          <li class="reel" data-val="5"><img src="img/5.png" alt=""></li> <!-- index 3 -->
+          <li class="reel" data-val="4"><img src="img/4.png" alt=""></li> <!-- index 2 -->
+          <li class="reel" data-val="3"><img src="img/3.png" alt=""></li> <!-- index 1 -->
+          <li class="reel" data-val="2"><img src="img/2.png" alt=""></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="1"><img src="img/1.png" alt=""></li>
+      </ul>
+      <ul class="reels">
+          <li class="reel" data-val="4"><img src="img/4.png" alt=""></li>
+          <li class="reel" data-val="3"><img src="img/3.png" alt=""></li> <!-- index 7 -->
+          <li class="reel" data-val="2"><img src="img/2.png" alt=""></li> <!-- index 6 -->
+          <li class="reel" data-val="1"><img src="img/1.png" alt=""></li> <!-- index 5 -->
+          <li class="reel" data-val="0"><img src="img/0.png" alt=""></li> <!-- index 4 -->
+          <li class="reel" data-val="7"><img src="img/7.png" alt=""></li> <!-- index 3 -->
+          <li class="reel" data-val="6"><img src="img/6.png" alt=""></li> <!-- index 2 -->
+          <li class="reel" data-val="5"><img src="img/5.png" alt=""></li> <!-- index 1 -->
+          <li class="reel" data-val="4"><img src="img/4.png" alt=""></li> <!-- index 0 初期値 -->
+          <li class="reel" data-val="3"><img src="img/3.png" alt=""></li>
+      </ul>
+        </div>
+      </div>
+    </div>
+    <div id="hit">
+    </div>
+    <div>
+      <button type="button" class="stop-btn" data-val="0" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="1" disabled="true"></button>
+      <button type="button" class="stop-btn" data-val="2" disabled="true"></button>
+    </div>
+    <div>
+      <button type="button" id="start-btn">ゲームスタート</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
